@@ -10,6 +10,7 @@ def ft_open_file() -> TextIO | None:
         print(f"Error opening file '{sys.argv[1]}': {e}")
     except Exception as e:
         print(f"Error opening file '{sys.argv[1]}': {e}")
+    return None
 
 
 def main() -> None:
